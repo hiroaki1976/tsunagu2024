@@ -1,5 +1,10 @@
 {
     "Name": "ご担当者様氏名",
+    "Officename": "事業所名",
+    "Postcode": "郵便番号",
+    "Prefecture": "都道府県",
+    "City": "市区町村",
+    "Town": "町名など",
     "Profile": "アカウント",
     "Profile Information": "アカウント情報",
     "Cancel": "キャンセル",
