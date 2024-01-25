@@ -1,6 +1,9 @@
 <x-guest-layout>
-    <form method="POST" action="{{ route('register') }}">
+    <form method="POST" action="{{ route('register') }}" name="zipcloud">
         @csrf
+        @push('scripts')
+        <script src="{{ asset('js/zipcloud.js') }}" defer></script>
+        @endpush
 
         <!-- Office Name -->
         <div>

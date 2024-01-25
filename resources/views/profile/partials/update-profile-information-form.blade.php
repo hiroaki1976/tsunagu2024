@@ -13,9 +13,12 @@
         @csrf
     </form>
 
-    <form method="post" action="{{ route('profile.update') }}" class="mt-6 space-y-6">
+    <form method="post" action="{{ route('profile.update') }}" name="zipcloud" class="mt-6 space-y-6">
         @csrf
         @method('patch')
+        @push('scripts')
+        <script src="{{ asset('js/zipcloud.js') }}" defer></script>
+        @endpush
 
         <!-- Office Name -->
         <div>
